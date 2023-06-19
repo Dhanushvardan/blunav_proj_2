@@ -1,0 +1,244 @@
+.timeLine {
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    .topbar {
+        height: 6vh;
+        width: 100vw;
+        background-color: black;
+        display: flex;
+        .logobar {
+            width: 4vw;
+            height: 6vh;
+            .lg {
+                width: 4vw;
+                height: 6vh;
+            }
+        }
+        .titleBar {
+            height: 6vh;
+            width: 25vw;
+            background-color: black;
+            display: flex;
+            margin-top: 1vh;
+            font-family: 'Dancing Script', cursive;
+            font-family: 'Poor Story', cursive;
+            font-size: large;
+            font-family: 'Roboto', sans-serif;
+            color: #CACADB;
+            justify-content: center;
+        }
+        .iconbar {
+            margin-left: 30vw;
+            height: 6vh;
+            width: 30vw;
+            display: flex;
+            flex-direction: row;
+            .iconSpace {
+                height: 6vh;
+                width: 4vw;
+                margin-right: 0.5vw;
+                .icons {
+                    margin-top: 2vh;
+                    margin-left: 1vw;
+                    height: 2.5vh;
+                    width: 1.5vw;
+                }
+                &:hover {
+                    transform: scale(1.15);
+                }
+            }
+        }
+        .timeBar {
+            height: 6vh;
+            width: 30vw;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            margin-top: 0.5vh;
+            // .rs {
+            //     margin-top: 1vh;
+            // }
+            .dateSpace {
+                height: 6vh;
+                font-size: large;
+                width: 22vw;
+                margin-top: 0.5vh;
+                color: white;
+                font-family: 'Dancing Script', cursive;
+                font-family: 'Poor Story', cursive;
+                font-family: 'Roboto', sans-serif;
+                color: #CACADB;
+            }
+        }
+    }
+    .popBox {
+        border: 1px solid #000 !important;
+        border-radius: 8px !important;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+    .inputPop {
+        position: fixed;
+        top: 10vh;
+        left: 20vw;
+        width: 60vw;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        z-index: 999;
+        background: #1C1C1C;
+        color: white;
+        font-size: small;
+        border: solid white 2px;
+        border-radius: 15px;
+        /* Set a higher z-index */
+        .bottomBar {
+            height: 5vh;
+            width: 60vw;
+            justify-content: center;
+            display: flex;
+            .closeBt {
+                width: 10vh;
+            }
+            .createBt {
+                width: 10vh;
+            }
+        }
+        .comInputs {
+            height: 35vh;
+            margin-left: 5vw;
+            width: 50vw;
+            border: solid black 1px;
+            border-radius: 15px;
+            margin-bottom: 2vh;
+            margin-top: 2vh;
+            background: #2B2B2B;
+            .popHeader {
+                height: 4vh;
+                width: 50vw;
+                background-color: #484848;
+                border: solid 1px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                display: flex;
+                justify-content: center;
+            }
+            .comIn {
+                display: flex;
+                flex-direction: row;
+                height: 35vh;
+                width: 30vw;
+                margin-left: 10vw;
+                margin-bottom: 1vh;
+                .p1 {
+                    display: flex;
+                    flex-direction: column;
+                    width: 20vw;
+                    height: 20vh;
+                    margin-top: 2vh;
+                    .q1 {
+                        margin-top: 1vh;
+                    }
+                }
+                .p2 {
+                    display: flex;
+                    width: 20vw;
+                    height: 20vh;
+                    flex-direction: column;
+                    margin-top: 2vh;
+                    .q1 {
+                        margin-top: 1vh;
+                    }
+                    .q2 {
+                        margin-top: 1vh;
+                        background-color: black;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .inPops {
+            height: 70vh;
+            width: 50vw;
+            display: flex;
+            margin-bottom: 2vh;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            .arrivalBox {
+                height: 39vh;
+                width: 25vw;
+                border: solid black 1px;
+                border-radius: 15px;
+                display: flex;
+                flex-direction: column;
+                margin-left: 3vw;
+                background: #2B2B2B;
+                .arTitle {
+                    width: 25vw;
+                    height: 4vh;
+                    display: flex;
+                    background-color: #8C5D00;
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    justify-content: center;
+                }
+                .arInputs {
+                    height: 39vh;
+                    width: 25vw;
+                    display: flex;
+                    flex-direction: column;
+                    .arIns {
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: 1vh;
+                        .pair1 {
+                            height: 39vh;
+                            width: 9vw;
+                            margin-left: 1vw;
+                            display: flex;
+                            margin-top: 1vh;
+                            flex-direction: column;
+                            .l {
+                                height: 4vh;
+                                width: 9vw;
+                                margin-bottom: 2vh;
+                            }
+                        }
+                        .pair2 {
+                            height: 39vh;
+                            width: 15vw;
+                            margin-left: 1vw;
+                            display: flex;
+                            flex-direction: column;
+                            .I {
+                                height: 4vh;
+                                width: 13vw;
+                                margin-bottom: 2vh;
+                                background-color: black;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            // .depBox {
+            //     height: 45vh;
+            //     width: 25vw;
+            //     border: solid black 1px;
+            //     margin-left: 3vw;
+            //     .depTitle {
+            //         width: 25vw;
+            //         height: 4vh;
+            //         background-color: #005686;
+            //     }
+            // }
+        }
+    }
+    .mobiscroll-event-move {
+        pointer-events: none !important;
+    }
+}

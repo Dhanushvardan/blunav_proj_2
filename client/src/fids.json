@@ -1,0 +1,777 @@
+[
+  {
+    "timestamp": {
+      "$date": "2023-04-17T11:00:37.000Z"
+    },
+    "standType": "large",
+    "InternationalStatus": "DOMESTIC",
+    "ServiceType": "C",
+    "PrimaryAircraft": {
+      "Registration": "VTTRI",
+      "Type": {
+        "IATA": "LJ4",
+        "ICAO": "LJ45",
+        "Description": "LearJet45"
+      },
+      "AircraftConfiguration": {
+        "MTO": {
+          "@UnitOfMeasure": "KG",
+          "#text": "9752"
+        }
+      }
+    },
+    "_id": {
+      "$oid": "643d26d80ece6eabb35338d5"
+    },
+    "FlightID": {
+      "AIPUniqueID": "DEP_3826360",
+      "Airline": {
+        "IATA": "VF",
+        "ICAO": "VSR",
+        "Name": "VSR Ventures"
+      },
+      "FlightNumber": "0002",
+      "STO": {
+        "Date": "2023-04-17",
+        "Time": "14:00:00+05:30"
+      },
+      "Airport": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "FlightNature": "DEPARTURE"
+    },
+    "Route": {
+      "Origin": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "Destination": {
+        "IATA": "BOM",
+        "ICAO": "VABB",
+        "Name": "Mumbai",
+        "City": "Mumbai",
+        "Country": "India"
+      }
+    },
+    "Terminal": "NS",
+    "LinkedFlightID": {
+      "AIPUniqueID": "ARR_3867013",
+      "Airline": {
+        "IATA": "VF",
+        "ICAO": "VSR",
+        "Name": "VSR Ventures"
+      },
+      "FlightNumber": "0001",
+      "STO": {
+        "Date": "2023-04-17",
+        "Time": "13:30:00+05:30"
+      },
+      "Airport": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "FlightNature": "ARRIVAL"
+    },
+    "ResourceAllocations": {
+      "BAY": {
+        "@Location": "APRON G (L:24 Ws:24)",
+        "Code": "RP1",
+        "Start": "2023-04-17T14:44:00+05:30",
+        "Stop": "2023-04-17T16:00:00+05:30"
+      },
+      "GATE": {
+        "Code": null,
+        "Start": "2023-04-17T15:47:00+05:30",
+        "Stop": "2023-04-17T16:17:00+05:30"
+      }
+    },
+    "CustomFields": {
+      "CashPayment": "false",
+      "Grounded": "false",
+      "SendToBilling": "false",
+      "ResetFlag": "false"
+    },
+    "FlightEvents": {
+      "ActualDeparture": "2023-04-17T16:17:00+05:30",
+      "MostConfidentDepartureTime": "2023-04-17T16:17:00+05:30",
+      "DepartureStandOffChock": "2023-04-17T16:00:00+05:30",
+      "EstimatedDeparture": "2023-04-17T15:45:00+05:30",
+      "MostConfidentOffChocksTime": "2023-04-17T16:00:00+05:30"
+    },
+    "OperationalStatus": {
+      "Code": {
+        "@CodeContext": "0000",
+        "#text": "9999"
+      },
+      "Description": {
+        "@Language": "en-UK",
+        "#text": "Departed"
+      }
+    }
+  },
+  {
+    "timestamp": {
+      "$date": "2023-04-17T11:00:43.000Z"
+    },
+    "standType": "large",
+    "InternationalStatus": "DOMESTIC",
+    "ServiceType": "J",
+    "PrimaryAircraft": {
+      "Registration": "VTIAQ",
+      "Type": {
+        "IATA": "320",
+        "ICAO": "A320",
+        "Description": "Airbus A320-100/200"
+      },
+      "AircraftConfiguration": {
+        "MTO": {
+          "@UnitOfMeasure": "KG",
+          "#text": "75500"
+        }
+      }
+    },
+    "_id": {
+      "$oid": "643d26e30ece6eabb35338d6"
+    },
+    "FlightID": {
+      "AIPUniqueID": "ARR_3722944",
+      "Airline": {
+        "IATA": "6E",
+        "ICAO": "IGO",
+        "Name": "IndiGo Airlines"
+      },
+      "FlightNumber": "6143",
+      "STO": {
+        "Date": "2023-04-17",
+        "Time": "18:05:00+05:30"
+      },
+      "Airport": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "FlightNature": "ARRIVAL"
+    },
+    "Route": {
+      "Origin": {
+        "IATA": "STV",
+        "ICAO": "VASU",
+        "Name": "Surat",
+        "City": "Surat",
+        "Country": "India"
+      },
+      "Destination": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      }
+    },
+    "Terminal": "1",
+    "LinkedFlightID": {
+      "AIPUniqueID": "DEP_3678717",
+      "Airline": {
+        "IATA": "6E",
+        "ICAO": "IGO",
+        "Name": "IndiGo Airlines"
+      },
+      "FlightNumber": "6143",
+      "STO": {
+        "Date": "2023-04-17",
+        "Time": "18:45:00+05:30"
+      },
+      "Airport": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "FlightNature": "DEPARTURE"
+    },
+    "ResourceAllocations": {
+      "BAY": {
+        "@Location": "DOM PAR-AREA1 Con APRON A(L:45 Ws:35.92)",
+        "Code": "D21",
+        "Start": "2023-04-17T17:34:00+05:30",
+        "Stop": "2023-04-17T18:45:00+05:30"
+      },
+      "BAGGAGECLAIM": {
+        "Code": null,
+        "Start": "2023-04-17T17:34:00+05:30",
+        "Stop": "2023-04-17T18:19:00+05:30"
+      }
+    },
+    "CustomFields": {
+      "CashPayment": "false",
+      "Grounded": "false",
+      "SendToBilling": "false",
+      "AODBFields": {
+        "KeyValue": {
+          "@Key": "B--P_IPP",
+          "Boolean": "false"
+        }
+      }
+    },
+    "FlightEvents": {
+      "MostConfidentArrivalTime": "2023-04-17T17:34:00+05:30",
+      "EstimatedArrival": "2023-04-17T17:34:00+05:30",
+      "MostConfidentOnChocksTime": "2023-04-17T17:34:00+05:30"
+    },
+    "OperationalStatus": {
+      "Code": {
+        "@CodeContext": "0000",
+        "#text": "9999"
+      },
+      "Description": {
+        "@Language": "en-UK",
+        "#text": "On Time"
+      }
+    }
+  },
+  {
+    "timestamp": {
+      "$date": "2023-04-17T11:00:43.000Z"
+    },
+    "standType": "large",
+    "FlightEvents": {
+      "MostConfidentArrivalTime": "2023-04-17T16:58:00+05:30",
+      "EstimatedArrival": "2023-04-17T16:58:00+05:30",
+      "MostConfidentOnChocksTime": "2023-04-17T16:58:00+05:30"
+    },
+    "CustomFields": {
+      "CashPayment": "false",
+      "Grounded": "false",
+      "SendToBilling": "false",
+      "AODBFields": {
+        "KeyValue": {
+          "@Key": "B--P_IPP",
+          "Boolean": "false"
+        }
+      }
+    },
+    "OperationalStatus": {
+      "Code": {
+        "@CodeContext": "0000",
+        "#text": "9999"
+      },
+      "Description": {
+        "@Language": "en-UK",
+        "#text": "On Time"
+      }
+    },
+    "InternationalStatus": "DOMESTIC",
+    "LinkedFlightID": {
+      "AIPUniqueID": "DEP_3680129",
+      "Airline": {
+        "IATA": "6E",
+        "ICAO": "IGO",
+        "Name": "IndiGo Airlines"
+      },
+      "FlightNumber": "0141",
+      "STO": {
+        "Date": "2023-04-17",
+        "Time": "18:10:00+05:30"
+      },
+      "Airport": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "FlightNature": "DEPARTURE"
+    },
+    "ResourceAllocations": {
+      "BAY": {
+        "@Location": "DOM PAR-AREA1 Con APRON A(L:45 Ws:35.92)",
+        "Code": "D22",
+        "Start": "2023-04-17T16:58:00+05:30",
+        "Stop": "2023-04-17T18:10:00+05:30"
+      },
+      "BAGGAGECLAIM": {
+        "Code": "CD1",
+        "Start": "2023-04-17T16:58:00+05:30",
+        "Stop": "2023-04-17T17:43:00+05:30"
+      }
+    },
+    "_id": {
+      "$oid": "643d26e30ece6eabb35338d7"
+    },
+    "FlightID": {
+      "AIPUniqueID": "ARR_3703487",
+      "Airline": {
+        "IATA": "6E",
+        "ICAO": "IGO",
+        "Name": "IndiGo Airlines"
+      },
+      "FlightNumber": "0483",
+      "STO": {
+        "Date": "2023-04-17",
+        "Time": "17:10:00+05:30"
+      },
+      "Airport": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "FlightNature": "ARRIVAL"
+    },
+    "Route": {
+      "Origin": {
+        "IATA": "PAT",
+        "ICAO": "VEPT",
+        "Name": "Patna",
+        "City": "Patna",
+        "Country": "India"
+      },
+      "Destination": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      }
+    },
+    "ServiceType": "J",
+    "Terminal": "1",
+    "PrimaryAircraft": {
+      "Registration": "VTITQ",
+      "Type": {
+        "IATA": "320",
+        "ICAO": "A320",
+        "Description": "Airbus A320-100/200"
+      },
+      "AircraftConfiguration": {
+        "MTO": {
+          "@UnitOfMeasure": "KG",
+          "#text": "75500"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": {
+      "$date": "2023-04-17T11:01:03.000Z"
+    },
+    "standType": "small",
+    "FlightEvents": {
+      "EstimatedArrivalMultiAirport": "2023-04-17T17:00:00+05:30",
+      "MostConfidentArrivalTime": "2023-04-17T16:52:00+05:30",
+      "EstimatedArrival": "2023-04-17T16:52:00+05:30",
+      "MostConfidentOnChocksTime": "2023-04-17T16:52:00+05:30"
+    },
+    "CustomFields": {
+      "ETAMultiAirport": "2023-04-17T17:00:00+05:30",
+      "MultiAirportAircraftType": "A320",
+      "MultiAirportRegistration": "VTIIM",
+      "MultiAirportFlightStatus": "Previous station departed",
+      "CashPayment": "false",
+      "Grounded": "false",
+      "FlightIdAtOrigin": "Airline=6E,FlightNumber=0892,STODate=2023-04-17,Airport=CCU",
+      "SendToBilling": "false",
+      "AODBFields": {
+        "KeyValue": {
+          "@Key": "B--P_IPP",
+          "Boolean": "false"
+        }
+      }
+    },
+    "OperationalStatus": {
+      "Code": {
+        "@CodeContext": "0000",
+        "#text": "9999"
+      },
+      "Description": {
+        "@Language": "en-UK",
+        "#text": "On Time"
+      }
+    },
+    "InternationalStatus": "DOMESTIC",
+    "LinkedFlightID": {
+      "AIPUniqueID": "DEP_3677674",
+      "Airline": {
+        "IATA": "6E",
+        "ICAO": "IGO",
+        "Name": "IndiGo Airlines"
+      },
+      "FlightNumber": "6275",
+      "STO": {
+        "Date": "2023-04-17",
+        "Time": "17:45:00+05:30"
+      },
+      "Airport": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "FlightNature": "DEPARTURE"
+    },
+    "ResourceAllocations": {
+      "BAY": {
+        "@Location": "DOM PAR-AREA5 Incon APRON D (L:45 Ws:35.92)",
+        "Code": "D52",
+        "Start": "2023-04-17T16:52:00+05:30",
+        "Stop": "2023-04-17T17:45:00+05:30"
+      },
+      "BAGGAGECLAIM": {
+        "Code": "CD2",
+        "Start": "2023-04-17T16:52:00+05:30",
+        "Stop": "2023-04-17T17:37:00+05:30"
+      }
+    },
+    "_id": {
+      "$oid": "643d26fa0ece6eabb35338d8"
+    },
+    "FlightID": {
+      "AIPUniqueID": "ARR_3721898",
+      "Airline": {
+        "IATA": "6E",
+        "ICAO": "IGO",
+        "Name": "IndiGo Airlines"
+      },
+      "FlightNumber": "0892",
+      "STO": {
+        "Date": "2023-04-17",
+        "Time": "17:05:00+05:30"
+      },
+      "Airport": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "FlightNature": "ARRIVAL"
+    },
+    "Route": {
+      "Origin": {
+        "IATA": "CCU",
+        "ICAO": "VECC",
+        "Name": "Kolkata",
+        "City": "Kolkata",
+        "Country": "India"
+      },
+      "Destination": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      }
+    },
+    "ServiceType": "J",
+    "Terminal": "1",
+    "PrimaryAircraft": {
+      "Registration": "VTIIM",
+      "Type": {
+        "IATA": "320",
+        "ICAO": "A320",
+        "Description": "Airbus A320-100/200"
+      },
+      "AircraftConfiguration": {
+        "MTO": {
+          "@UnitOfMeasure": "KG",
+          "#text": "75500"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": {
+      "$date": "2023-04-17T11:01:22.000Z"
+    },
+    "standType": "small",
+    "FlightEvents": {
+      "MostConfidentDepartureTime": "2023-04-17T18:30:00+05:30",
+      "EstimatedDeparture": "2023-04-17T18:30:00+05:30",
+      "MostConfidentOffChocksTime": "2023-04-17T18:30:00+05:30"
+    },
+    "CustomFields": {
+      "EstimatedElapsedTime": "PT51M",
+      "PrimaryAlternateAerodrome": "VOBL",
+      "CashPayment": "false",
+      "Grounded": "false",
+      "SendToBilling": "false",
+      "ResetFlag": "false"
+    },
+    "OperationalStatus": {
+      "Code": {
+        "@CodeContext": "0000",
+        "#text": "9999"
+      },
+      "Description": {
+        "@Language": "en-UK",
+        "#text": "Security"
+      }
+    },
+    "InternationalStatus": "DOMESTIC",
+    "LinkedFlightID": {
+      "AIPUniqueID": "ARR_3711493",
+      "Airline": {
+        "IATA": "6E",
+        "ICAO": "IGO",
+        "Name": "IndiGo Airlines"
+      },
+      "FlightNumber": "0668",
+      "STO": {
+        "Date": "2023-04-17",
+        "Time": "17:45:00+05:30"
+      },
+      "Airport": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "FlightNature": "ARRIVAL"
+    },
+    "ResourceAllocations": {
+      "BAY": {
+        "@Location": "INT APRON C (L:73.9 Ws:64.8)",
+        "Code": "IN43L",
+        "Start": "2023-04-17T17:45:00+05:30",
+        "Stop": "2023-04-17T18:30:00+05:30"
+      },
+      "GATE": {
+        "Code": "H2",
+        "Start": "2023-04-17T18:00:00+05:30",
+        "Stop": "2023-04-17T18:30:00+05:30"
+      },
+      "COUNTER": {
+        "Code": null,
+        "Start": "2023-04-17T15:30:00+05:30",
+        "Stop": "2023-04-17T18:00:00+05:30"
+      },
+      "COUNTER1": {
+        "Code": null,
+        "Start": "2023-04-17T15:30:00+05:30",
+        "Stop": "2023-04-17T18:00:00+05:30"
+      },
+      "COUNTER2": {
+        "Code": null,
+        "Start": "2023-04-17T15:30:00+05:30",
+        "Stop": "2023-04-17T18:00:00+05:30"
+      },
+      "COUNTER3": {
+        "Code": null,
+        "Start": "2023-04-17T15:30:00+05:30",
+        "Stop": "2023-04-17T18:00:00+05:30"
+      }
+    },
+    "_id": {
+      "$oid": "643d270b0ece6eabb35338d9"
+    },
+    "FlightID": {
+      "AIPUniqueID": "DEP_3667609",
+      "Airline": {
+        "IATA": "6E",
+        "ICAO": "IGO",
+        "Name": "IndiGo Airlines"
+      },
+      "FlightNumber": "6215",
+      "STO": {
+        "Date": "2023-04-17",
+        "Time": "18:30:00+05:30"
+      },
+      "Airport": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "FlightNature": "DEPARTURE"
+    },
+    "Route": {
+      "Origin": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "Destination": {
+        "IATA": "HYD",
+        "ICAO": "VOHS",
+        "Name": "Hyderabad",
+        "City": "Hyderabad",
+        "Country": "India"
+      }
+    },
+    "ServiceType": "J",
+    "Terminal": "1",
+    "PrimaryAircraft": {
+      "Registration": "VTIBB",
+      "Type": {
+        "IATA": "31N",
+        "ICAO": "A21N",
+        "Description": "Airbus A321-251N"
+      },
+      "AircraftConfiguration": {
+        "MTO": {
+          "@UnitOfMeasure": "KG",
+          "#text": "970000"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": {
+      "$date": "2023-04-17T11:01:23.000Z"
+    },
+    "standType": "small",
+    "FlightEvents": {
+      "MostConfidentDepartureTime": "2023-04-17T18:30:00+05:30",
+      "EstimatedDeparture": "2023-04-17T18:30:00+05:30",
+      "MostConfidentOffChocksTime": "2023-04-17T18:30:00+05:30"
+    },
+    "CustomFields": {
+      "EstimatedElapsedTime": "PT89M",
+      "PrimaryAlternateAerodrome": "VAAH",
+      "CashPayment": "false",
+      "Grounded": "false",
+      "SendToBilling": "false",
+      "ResetFlag": "false"
+    },
+    "OperationalStatus": {
+      "Code": {
+        "@CodeContext": "0000",
+        "#text": "9999"
+      },
+      "Description": {
+        "@Language": "en-UK",
+        "#text": "Security"
+      }
+    },
+    "InternationalStatus": "DOMESTIC",
+    "LinkedFlightID": {
+      "AIPUniqueID": "ARR_3724075",
+      "Airline": {
+        "IATA": "6E",
+        "ICAO": "IGO",
+        "Name": "IndiGo Airlines"
+      },
+      "FlightNumber": "5337",
+      "STO": {
+        "Date": "2023-04-17",
+        "Time": "17:50:00+05:30"
+      },
+      "Airport": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "FlightNature": "ARRIVAL"
+    },
+    "ResourceAllocations": {
+      "BAY": {
+        "@Location": "DOM PAR-AREA1 Con APRON A(L:45 Ws:35.92)",
+        "Code": "D19",
+        "Start": "2023-04-17T17:35:00+05:30",
+        "Stop": "2023-04-17T18:30:00+05:30"
+      },
+      "GATE": {
+        "Code": "G1",
+        "Start": "2023-04-17T18:00:00+05:30",
+        "Stop": "2023-04-17T18:30:00+05:30"
+      },
+      "COUNTER": {
+        "Code": null,
+        "Start": "2023-04-17T15:30:00+05:30",
+        "Stop": "2023-04-17T18:00:00+05:30"
+      },
+      "COUNTER1": {
+        "Code": null,
+        "Start": "2023-04-17T15:30:00+05:30",
+        "Stop": "2023-04-17T18:00:00+05:30"
+      },
+      "COUNTER2": {
+        "Code": null,
+        "Start": "2023-04-17T15:30:00+05:30",
+        "Stop": "2023-04-17T18:00:00+05:30"
+      },
+      "COUNTER3": {
+        "Code": null,
+        "Start": "2023-04-17T15:30:00+05:30",
+        "Stop": "2023-04-17T18:00:00+05:30"
+      }
+    },
+    "_id": {
+      "$oid": "643d270b0ece6eabb35338da"
+    },
+    "FlightID": {
+      "AIPUniqueID": "DEP_3679594",
+      "Airline": {
+        "IATA": "6E",
+        "ICAO": "IGO",
+        "Name": "IndiGo Airlines"
+      },
+      "FlightNumber": "5381",
+      "STO": {
+        "Date": "2023-04-17",
+        "Time": "18:30:00+05:30"
+      },
+      "Airport": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "FlightNature": "DEPARTURE"
+    },
+    "Route": {
+      "Origin": {
+        "IATA": "MAA",
+        "ICAO": "VOMM",
+        "Name": "Chennai",
+        "City": "Chennai",
+        "Country": "India"
+      },
+      "Destination": {
+        "IATA": "BOM",
+        "ICAO": "VABB",
+        "Name": "Mumbai",
+        "City": "Mumbai",
+        "Country": "India"
+      }
+    },
+    "ServiceType": "J",
+    "Terminal": "1",
+    "PrimaryAircraft": {
+      "Registration": "VTIBH",
+      "Type": {
+        "IATA": "31N",
+        "ICAO": "A21N",
+        "Description": "Airbus A321-251N"
+      },
+      "AircraftConfiguration": {
+        "MTO": {
+          "@UnitOfMeasure": "KG",
+          "#text": "970000"
+        }
+      }
+    }
+  }
+]
