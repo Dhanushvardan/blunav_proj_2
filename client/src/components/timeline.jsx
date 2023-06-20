@@ -232,7 +232,7 @@ export default function Timeline() {
 
   const pushData = async () => {
     try {
-      await axios.post("http://localhost:5000/EventData", {
+      await axios.post("https://demo-blunav.onrender.com/EventData", {
         eventData,
       });
     } catch (err) {
