@@ -232,7 +232,7 @@ export default function Timeline() {
 
   const pushData = async () => {
     try {
-      await axios.post("https://mobi-demo.onrender.com/EventData", {
+      await axios.post("http://localhost:5000/EventData", {
         eventData,
       });
     } catch (err) {
@@ -250,10 +250,10 @@ export default function Timeline() {
     console.log("pushing data to backend");
   }, []);
 
-  useEffect(() => {
-    pushData();
-    console.log("pushing data to backend");
-  }, [eventData]);
+  // useEffect(() => {
+  //   pushData();
+  //   console.log("pushing data to backend");
+  // }, [eventData]);
 
   const calendarRef = useRef(null);
 
