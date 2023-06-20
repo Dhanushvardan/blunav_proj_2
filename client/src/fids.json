@@ -1,11 +1,14 @@
 [
   {
     "timestamp": {
-      "$date": "2023-04-17T11:00:37.000Z"
+      "$date": "2023-06-18T11:00:37.000Z"
     },
+    "caro": "yes",
+    "remarks": "good",
     "standType": "large",
     "InternationalStatus": "DOMESTIC",
     "ServiceType": "C",
+    "AirCraft": "A320",
     "PrimaryAircraft": {
       "Registration": "VTTRI",
       "Type": {
@@ -31,9 +34,18 @@
         "Name": "VSR Ventures"
       },
       "FlightNumber": "0002",
+      "ADate": "2023-06-18",
+      "ATime": "14:00:00+05:30",
+      "DDate": "2023-06-18",
+      "DTime": "16:00:00+05:30",
+
       "STO": {
-        "Date": "2023-04-17",
+        "Date": "2023-06-18",
         "Time": "14:00:00+05:30"
+      },
+      "STD": {
+        "Date": "2023-06-18",
+        "Time": "16:00:00+05:30"
       },
       "Airport": {
         "IATA": "MAA",
@@ -70,7 +82,7 @@
       },
       "FlightNumber": "0001",
       "STO": {
-        "Date": "2023-04-17",
+        "Date": "2023-06-18",
         "Time": "13:30:00+05:30"
       },
       "Airport": {
@@ -86,13 +98,14 @@
       "BAY": {
         "@Location": "APRON G (L:24 Ws:24)",
         "Code": "RP1",
-        "Start": "2023-04-17T14:44:00+05:30",
-        "Stop": "2023-04-17T16:00:00+05:30"
+        "Start": "2023-06-18T14:44:00+05:30",
+        "Stop": "2023-06-18T16:00:00+05:30"
       },
+      "Code": "G2",
       "GATE": {
         "Code": null,
-        "Start": "2023-04-17T15:47:00+05:30",
-        "Stop": "2023-04-17T16:17:00+05:30"
+        "Start": "2023-06-18T15:47:00+05:30",
+        "Stop": "2023-06-18T16:17:00+05:30"
       }
     },
     "CustomFields": {
@@ -102,11 +115,11 @@
       "ResetFlag": "false"
     },
     "FlightEvents": {
-      "ActualDeparture": "2023-04-17T16:17:00+05:30",
-      "MostConfidentDepartureTime": "2023-04-17T16:17:00+05:30",
-      "DepartureStandOffChock": "2023-04-17T16:00:00+05:30",
-      "EstimatedDeparture": "2023-04-17T15:45:00+05:30",
-      "MostConfidentOffChocksTime": "2023-04-17T16:00:00+05:30"
+      "ActualDeparture": "2023-06-18T16:17:00+05:30",
+      "MostConfidentOnChocksTime": "2023-06-18T16:17:00+05:30",
+      "DepartureStandOffChock": "2023-06-18T16:00:00+05:30",
+      "EstimatedDeparture": "2023-06-18T15:45:00+05:30",
+      "MostConfidentOffChocksTime": "2023-06-18T16:00:00+05:30"
     },
     "OperationalStatus": {
       "Code": {
@@ -121,8 +134,11 @@
   },
   {
     "timestamp": {
-      "$date": "2023-04-17T11:00:43.000Z"
+      "$date": "2023-06-18T11:00:43.000Z"
     },
+    "caro": "yes",
+    "remarks": "good",
+    "AirCraft": "A320",
     "standType": "large",
     "InternationalStatus": "DOMESTIC",
     "ServiceType": "J",
@@ -151,9 +167,13 @@
         "Name": "IndiGo Airlines"
       },
       "FlightNumber": "6143",
-      "STO": {
-        "Date": "2023-04-17",
-        "Time": "18:05:00+05:30"
+      "ADate": "2023-06-18",
+      "ATime": "18:05:00+05:30",
+      "DDate": "2023-06-18",
+      "DTime": "19:00:00+05:30",
+      "STD": {
+        "Date": "2023-06-18",
+        "Time": "19:00:00+05:30"
       },
       "Airport": {
         "IATA": "MAA",
@@ -190,7 +210,7 @@
       },
       "FlightNumber": "6143",
       "STO": {
-        "Date": "2023-04-17",
+        "Date": "2023-06-18",
         "Time": "18:45:00+05:30"
       },
       "Airport": {
@@ -206,13 +226,14 @@
       "BAY": {
         "@Location": "DOM PAR-AREA1 Con APRON A(L:45 Ws:35.92)",
         "Code": "D21",
-        "Start": "2023-04-17T17:34:00+05:30",
-        "Stop": "2023-04-17T18:45:00+05:30"
+        "Start": "2023-06-18T17:34:00+05:30",
+        "Stop": "2023-06-18T18:45:00+05:30"
       },
+      "Code": "G3",
       "BAGGAGECLAIM": {
         "Code": null,
-        "Start": "2023-04-17T17:34:00+05:30",
-        "Stop": "2023-04-17T18:19:00+05:30"
+        "Start": "2023-06-18T17:34:00+05:30",
+        "Stop": "2023-06-18T18:19:00+05:30"
       }
     },
     "CustomFields": {
@@ -227,9 +248,10 @@
       }
     },
     "FlightEvents": {
-      "MostConfidentArrivalTime": "2023-04-17T17:34:00+05:30",
-      "EstimatedArrival": "2023-04-17T17:34:00+05:30",
-      "MostConfidentOnChocksTime": "2023-04-17T17:34:00+05:30"
+      "MostConfidentArrivalTime": "2023-06-18T17:34:00+05:30",
+      "EstimatedArrival": "2023-06-18T17:34:00+05:30",
+      "MostConfidentOnChocksTime": "2023-06-18T17:34:00+05:30",
+      "MostConfidentOffChocksTime": "2023-06-18T17:34:00+05:30"
     },
     "OperationalStatus": {
       "Code": {
@@ -244,13 +266,16 @@
   },
   {
     "timestamp": {
-      "$date": "2023-04-17T11:00:43.000Z"
+      "$date": "2023-06-18T11:00:43.000Z"
     },
+    "caro": "yes",
+    "remarks": "good",
+    "AirCraft": "A320",
     "standType": "large",
     "FlightEvents": {
-      "MostConfidentArrivalTime": "2023-04-17T16:58:00+05:30",
-      "EstimatedArrival": "2023-04-17T16:58:00+05:30",
-      "MostConfidentOnChocksTime": "2023-04-17T16:58:00+05:30"
+      "MostConfidentOffChocksTime": "2023-06-18T16:58:00+05:30",
+      "EstimatedArrival": "2023-06-18T16:58:00+05:30",
+      "MostConfidentOnChocksTime": "2023-06-18T16:58:00+05:30"
     },
     "CustomFields": {
       "CashPayment": "false",
@@ -282,9 +307,13 @@
         "Name": "IndiGo Airlines"
       },
       "FlightNumber": "0141",
-      "STO": {
-        "Date": "2023-04-17",
-        "Time": "18:10:00+05:30"
+      "ADate": "2023-06-18",
+      "ATime": "18:10:00+05:30",
+      "DDate": "2023-06-18",
+      "DTime": "20:00:00+05:30",
+      "STD": {
+        "Date": "2023-06-18",
+        "Time": "20:00:00+05:30"
       },
       "Airport": {
         "IATA": "MAA",
@@ -299,13 +328,14 @@
       "BAY": {
         "@Location": "DOM PAR-AREA1 Con APRON A(L:45 Ws:35.92)",
         "Code": "D22",
-        "Start": "2023-04-17T16:58:00+05:30",
-        "Stop": "2023-04-17T18:10:00+05:30"
+        "Start": "2023-06-18T16:58:00+05:30",
+        "Stop": "2023-06-18T18:10:00+05:30"
       },
+      "Code": "G4",
       "BAGGAGECLAIM": {
         "Code": "CD1",
-        "Start": "2023-04-17T16:58:00+05:30",
-        "Stop": "2023-04-17T17:43:00+05:30"
+        "Start": "2023-06-18T16:58:00+05:30",
+        "Stop": "2023-06-18T17:43:00+05:30"
       }
     },
     "_id": {
@@ -320,7 +350,7 @@
       },
       "FlightNumber": "0483",
       "STO": {
-        "Date": "2023-04-17",
+        "Date": "2023-06-18",
         "Time": "17:10:00+05:30"
       },
       "Airport": {
@@ -367,23 +397,26 @@
   },
   {
     "timestamp": {
-      "$date": "2023-04-17T11:01:03.000Z"
+      "$date": "2023-06-18T11:01:03.000Z"
     },
+    "caro": "yes",
+    "remarks": "good",
+    "AirCraft": "B737",
     "standType": "small",
     "FlightEvents": {
-      "EstimatedArrivalMultiAirport": "2023-04-17T17:00:00+05:30",
-      "MostConfidentArrivalTime": "2023-04-17T16:52:00+05:30",
-      "EstimatedArrival": "2023-04-17T16:52:00+05:30",
-      "MostConfidentOnChocksTime": "2023-04-17T16:52:00+05:30"
+      "EstimatedArrivalMultiAirport": "2023-06-18T17:00:00+05:30",
+      "MostConfidentOffChocksTime": "2023-06-18T16:52:00+05:30",
+      "EstimatedArrival": "2023-06-18T16:52:00+05:30",
+      "MostConfidentOnChocksTime": "2023-06-18T16:52:00+05:30"
     },
     "CustomFields": {
-      "ETAMultiAirport": "2023-04-17T17:00:00+05:30",
+      "ETAMultiAirport": "2023-06-18T17:00:00+05:30",
       "MultiAirportAircraftType": "A320",
       "MultiAirportRegistration": "VTIIM",
       "MultiAirportFlightStatus": "Previous station departed",
       "CashPayment": "false",
       "Grounded": "false",
-      "FlightIdAtOrigin": "Airline=6E,FlightNumber=0892,STODate=2023-04-17,Airport=CCU",
+      "FlightIdAtOrigin": "Airline=6E,FlightNumber=0892,STODate=2023-06-18,Airport=CCU",
       "SendToBilling": "false",
       "AODBFields": {
         "KeyValue": {
@@ -411,9 +444,13 @@
         "Name": "IndiGo Airlines"
       },
       "FlightNumber": "6275",
-      "STO": {
-        "Date": "2023-04-17",
-        "Time": "17:45:00+05:30"
+      "ADate": "2023-06-18",
+      "ATime": "17:45:00+05:30",
+      "DDate": "2023-06-18",
+      "DTime": "19:00:00+05:30",
+      "STD": {
+        "Date": "2023-06-18",
+        "Time": "19:00:00+05:30"
       },
       "Airport": {
         "IATA": "MAA",
@@ -428,13 +465,14 @@
       "BAY": {
         "@Location": "DOM PAR-AREA5 Incon APRON D (L:45 Ws:35.92)",
         "Code": "D52",
-        "Start": "2023-04-17T16:52:00+05:30",
-        "Stop": "2023-04-17T17:45:00+05:30"
+        "Start": "2023-06-18T16:52:00+05:30",
+        "Stop": "2023-06-18T17:45:00+05:30"
       },
+      "Code": "G1",
       "BAGGAGECLAIM": {
         "Code": "CD2",
-        "Start": "2023-04-17T16:52:00+05:30",
-        "Stop": "2023-04-17T17:37:00+05:30"
+        "Start": "2023-06-18T16:52:00+05:30",
+        "Stop": "2023-06-18T17:37:00+05:30"
       }
     },
     "_id": {
@@ -449,7 +487,7 @@
       },
       "FlightNumber": "0892",
       "STO": {
-        "Date": "2023-04-17",
+        "Date": "2023-06-18",
         "Time": "17:05:00+05:30"
       },
       "Airport": {
@@ -496,13 +534,16 @@
   },
   {
     "timestamp": {
-      "$date": "2023-04-17T11:01:22.000Z"
+      "$date": "2023-06-18T11:01:22.000Z"
     },
+    "caro": "yes",
+    "remarks": "good",
+    "AirCraft": "B737",
     "standType": "small",
     "FlightEvents": {
-      "MostConfidentDepartureTime": "2023-04-17T18:30:00+05:30",
-      "EstimatedDeparture": "2023-04-17T18:30:00+05:30",
-      "MostConfidentOffChocksTime": "2023-04-17T18:30:00+05:30"
+      "MostConfidentOnChocksTime": "2023-06-18T18:30:00+05:30",
+      "EstimatedDeparture": "2023-06-18T18:30:00+05:30",
+      "MostConfidentOffChocksTime": "2023-06-18T18:30:00+05:30"
     },
     "CustomFields": {
       "EstimatedElapsedTime": "PT51M",
@@ -531,9 +572,17 @@
         "Name": "IndiGo Airlines"
       },
       "FlightNumber": "0668",
+      "ADate": "2023-06-18",
+      "ATime": "17:45:00+05:30",
+      "DDate": "2023-06-18",
+      "DTime": "19:00:00+05:30",
       "STO": {
-        "Date": "2023-04-17",
+        "Date": "2023-06-18",
         "Time": "17:45:00+05:30"
+      },
+      "STD": {
+        "Date": "2023-06-18",
+        "Time": "19:00:00+05:30"
       },
       "Airport": {
         "IATA": "MAA",
@@ -548,33 +597,34 @@
       "BAY": {
         "@Location": "INT APRON C (L:73.9 Ws:64.8)",
         "Code": "IN43L",
-        "Start": "2023-04-17T17:45:00+05:30",
-        "Stop": "2023-04-17T18:30:00+05:30"
+        "Start": "2023-06-18T17:45:00+05:30",
+        "Stop": "2023-06-18T18:30:00+05:30"
       },
+      "Code": "H1",
       "GATE": {
         "Code": "H2",
-        "Start": "2023-04-17T18:00:00+05:30",
-        "Stop": "2023-04-17T18:30:00+05:30"
+        "Start": "2023-06-18T18:00:00+05:30",
+        "Stop": "2023-06-18T18:30:00+05:30"
       },
       "COUNTER": {
         "Code": null,
-        "Start": "2023-04-17T15:30:00+05:30",
-        "Stop": "2023-04-17T18:00:00+05:30"
+        "Start": "2023-06-18T15:30:00+05:30",
+        "Stop": "2023-06-18T18:00:00+05:30"
       },
       "COUNTER1": {
         "Code": null,
-        "Start": "2023-04-17T15:30:00+05:30",
-        "Stop": "2023-04-17T18:00:00+05:30"
+        "Start": "2023-06-18T15:30:00+05:30",
+        "Stop": "2023-06-18T18:00:00+05:30"
       },
       "COUNTER2": {
         "Code": null,
-        "Start": "2023-04-17T15:30:00+05:30",
-        "Stop": "2023-04-17T18:00:00+05:30"
+        "Start": "2023-06-18T15:30:00+05:30",
+        "Stop": "2023-06-18T18:00:00+05:30"
       },
       "COUNTER3": {
         "Code": null,
-        "Start": "2023-04-17T15:30:00+05:30",
-        "Stop": "2023-04-17T18:00:00+05:30"
+        "Start": "2023-06-18T15:30:00+05:30",
+        "Stop": "2023-06-18T18:00:00+05:30"
       }
     },
     "_id": {
@@ -589,7 +639,7 @@
       },
       "FlightNumber": "6215",
       "STO": {
-        "Date": "2023-04-17",
+        "Date": "2023-06-18",
         "Time": "18:30:00+05:30"
       },
       "Airport": {
@@ -636,13 +686,16 @@
   },
   {
     "timestamp": {
-      "$date": "2023-04-17T11:01:23.000Z"
+      "$date": "2023-06-18T11:01:23.000Z"
     },
+    "caro": "yes",
+    "remarks": "good",
+    "AirCraft": "B737",
     "standType": "small",
     "FlightEvents": {
-      "MostConfidentDepartureTime": "2023-04-17T18:30:00+05:30",
-      "EstimatedDeparture": "2023-04-17T18:30:00+05:30",
-      "MostConfidentOffChocksTime": "2023-04-17T18:30:00+05:30"
+      "MostConfidentOnChocksTime": "2023-06-18T18:30:00+05:30",
+      "EstimatedDeparture": "2023-06-18T18:30:00+05:30",
+      "MostConfidentOffChocksTime": "2023-06-18T18:30:00+05:30"
     },
     "CustomFields": {
       "EstimatedElapsedTime": "PT89M",
@@ -671,9 +724,13 @@
         "Name": "IndiGo Airlines"
       },
       "FlightNumber": "5337",
-      "STO": {
-        "Date": "2023-04-17",
-        "Time": "17:50:00+05:30"
+      "ADate": "2023-06-18",
+      "ATime": "17:50:00+05:30",
+      "DDate": "2023-06-18",
+      "DTime": "20:00:00+05:30",
+      "STD": {
+        "Date": "2023-06-18",
+        "Time": "20:00:00+05:30"
       },
       "Airport": {
         "IATA": "MAA",
@@ -688,33 +745,34 @@
       "BAY": {
         "@Location": "DOM PAR-AREA1 Con APRON A(L:45 Ws:35.92)",
         "Code": "D19",
-        "Start": "2023-04-17T17:35:00+05:30",
-        "Stop": "2023-04-17T18:30:00+05:30"
+        "Start": "2023-06-18T17:35:00+05:30",
+        "Stop": "2023-06-18T18:30:00+05:30"
       },
+      "Code": "G1",
       "GATE": {
         "Code": "G1",
-        "Start": "2023-04-17T18:00:00+05:30",
-        "Stop": "2023-04-17T18:30:00+05:30"
+        "Start": "2023-06-18T18:00:00+05:30",
+        "Stop": "2023-06-18T18:30:00+05:30"
       },
       "COUNTER": {
         "Code": null,
-        "Start": "2023-04-17T15:30:00+05:30",
-        "Stop": "2023-04-17T18:00:00+05:30"
+        "Start": "2023-06-18T15:30:00+05:30",
+        "Stop": "2023-06-18T18:00:00+05:30"
       },
       "COUNTER1": {
         "Code": null,
-        "Start": "2023-04-17T15:30:00+05:30",
-        "Stop": "2023-04-17T18:00:00+05:30"
+        "Start": "2023-06-18T15:30:00+05:30",
+        "Stop": "2023-06-18T18:00:00+05:30"
       },
       "COUNTER2": {
         "Code": null,
-        "Start": "2023-04-17T15:30:00+05:30",
-        "Stop": "2023-04-17T18:00:00+05:30"
+        "Start": "2023-06-18T15:30:00+05:30",
+        "Stop": "2023-06-18T18:00:00+05:30"
       },
       "COUNTER3": {
         "Code": null,
-        "Start": "2023-04-17T15:30:00+05:30",
-        "Stop": "2023-04-17T18:00:00+05:30"
+        "Start": "2023-06-18T15:30:00+05:30",
+        "Stop": "2023-06-18T18:00:00+05:30"
       }
     },
     "_id": {
@@ -729,7 +787,7 @@
       },
       "FlightNumber": "5381",
       "STO": {
-        "Date": "2023-04-17",
+        "Date": "2023-06-18",
         "Time": "18:30:00+05:30"
       },
       "Airport": {

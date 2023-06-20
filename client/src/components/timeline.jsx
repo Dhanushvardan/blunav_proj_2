@@ -8,6 +8,8 @@ import Switch from "react-switch";
 
 export default function Timeline() {
   const [myInvalids, setInvalids] = React.useState([]);
+  const [tHalf, setTHalf] = React.useState([]);
+  const [t2Half, sett2Half] = React.useState([]);
   const [t_data, setT_data] = React.useState([]);
   const [ch, setCh] = React.useState(-1);
   const [c, setC] = React.useState(1);
@@ -89,11 +91,20 @@ export default function Timeline() {
         end: f2,
         resource: r,
         category: st,
+        acType: item.AirCraft,
         title: item.FlightID.FlightNumber,
         description: "hello",
         reg: item.FlightID.AIPUniqueID,
-        Registration: item.PrimaryAircraft.Registration,
-        Airline: item.FlightID.Airline.Name,
+        arRem: item.remarks,
+        depRem: item.remarks,
+        onChoc: item.FlightEvents.MostConfidentOnChocksTime,
+        offChoc: item.FlightEvents.MostConfidentOffChocksTime,
+        gate: item.ResourceAllocations.Code,
+        caro: item.caro,
+        sta: item.FlightID.ADate + " " + item.FlightID.ATime,
+        ata: item.FlightID.ADate + " " + item.FlightID.ATime,
+        std: item.FlightID.DDate + " " + item.FlightID.DTime,
+        atd: item.FlightID.DDate + " " + item.FlightID.DTime,
         FlightNature: item.FlightID.FlightNature,
         Origin: item.Route.Origin.Name,
         Destination: item.Route.Destination.Name,
@@ -264,6 +275,9 @@ export default function Timeline() {
   const onEventDragEnd = React.useCallback((args) => {
     const event = args.event;
 
+    console.log(event.start);
+    console.log(event.stop);
+
     setInvalids([]);
     setColors([]);
 
@@ -332,9 +346,23 @@ export default function Timeline() {
 
   const onEventDragStart = React.useCallback((args) => {
     let event = args.event;
-    var s = 1;
-    var d = event.resource;
 
+    var d = event.resource;
+    event.start = event.start ? new Date(event.start) : event.start;
+    event.end = event.end ? new Date(event.end) : event.end;
+
+    console.log(event.start);
+    const v = event.start.toLocaleDateString();
+    const t = event.start.toLocaleTimeString();
+    const f = v.split("/");
+    const t1 = t.split(":");
+    if (t1[0].length == 1) {
+      t1[0] = "0" + t1[0];
+    }
+    const t2 = t1[0] + ":" + t1[1];
+    const f1 = f[2] + "-" + f[0] + "-" + f[1];
+    console.log(f1);
+    console.log(t2);
     // t_data.forEach((item) => {
     //   console.log("itemdata", item);
     //   console.log("item_Reg", item.reg);
@@ -403,12 +431,12 @@ export default function Timeline() {
   }, []);
 
   const CreateNewEvent = () => {
-    console.log(fTime);
-    console.log(tTime);
+    console.log(fTime + "T" + tHalf);
+    console.log(tTime + "T" + t2Half);
     console.log(fSize);
     let g = {
-      start: fTime,
-      end: tTime,
+      start: fTime + "T" + tHalf,
+      end: tTime + "T" + t2Half,
       resource: 0,
       category: fSize,
       sta: sta,
@@ -505,6 +533,7 @@ export default function Timeline() {
           ></img>
         </div>
         <div className="titleBar">AMCOMS / Bay allocation</div>
+
         <div className="iconbar">
           <div className="iconSpace">
             <img
@@ -540,13 +569,27 @@ export default function Timeline() {
             ></img>
           </div>
         </div>
+        <div className="searchBar">
+          <input className="searIn" type="text" placeholder="  Search"></input>
+          <img
+            src="https://res.cloudinary.com/dlm671rjr/image/upload/v1687241166/search_wihpcs.png"
+            className="icons"
+          ></img>
+        </div>
         <div className="timeBar">
           {checked ? (
             <div className="dateSpace">{date.toUTCString()}</div>
           ) : (
             <div className="dateSpace">{d}</div>
           )}
-          <Switch onChange={handleChange} checked={checked} className="rs" />
+          <Switch
+            onChange={handleChange}
+            checked={checked}
+            className="rs"
+            height={19}
+            width={37}
+            handleDiameter={8}
+          />
         </div>
       </div>
       <Eventcalendar
@@ -622,15 +665,16 @@ export default function Timeline() {
 
             <div className="comIn">
               <div className="p1">
-                <label className="q1">registration:</label>
+                <label className="q1">AirCraft ID</label>
                 <label className="q1">Aircraft Type</label>
-                <label className="q1">Flight Size(small or large)</label>
+
                 <label className="q1">Stand Start Time</label>
                 <label className="q1">Stand Stop Time</label>
+                <label className="q1">Flight Size</label>
               </div>
               <div className="p2">
                 <input
-                  placeholder="registration"
+                  placeholder="  Aircraft Unique ID"
                   className="q2"
                   onChange={(e) => {
                     setReg(e.target.value);
@@ -643,27 +687,46 @@ export default function Timeline() {
                   }}
                 >
                   <option value="select">select</option>
-                  <option value="Dhanush">Dhanush</option>
-                  <option value="vardan">vardan</option>
+                  <option value="A320">A320</option>
+                  <option value="B737">B737</option>
                 </select>
+
+                <div className="p22">
+                  <input
+                    className="q21"
+                    type="date"
+                    onChange={(e) => {
+                      setFTime(e.target.value);
+                    }}
+                  ></input>
+                  <input
+                    className="q22"
+                    placeholder=" HH:MM"
+                    onChange={(e) => {
+                      setTHalf(e.target.value);
+                    }}
+                  ></input>
+                </div>
+                <div className="p22">
+                  <input
+                    className="q21"
+                    type="date"
+                    onChange={(e) => {
+                      setTTime(e.target.value);
+                    }}
+                  ></input>
+                  <input
+                    className="q22"
+                    placeholder=" HH:MM"
+                    onChange={(e) => {
+                      sett2Half(e.target.value);
+                    }}
+                  ></input>
+                </div>
 
                 <input
                   className="q2"
-                  placeholder="<Date>T<Time>"
-                  onChange={(e) => {
-                    setFTime(e.target.value);
-                  }}
-                ></input>
-                <input
-                  className="q2"
-                  placeholder="<Date>T<Time>"
-                  onChange={(e) => {
-                    setTTime(e.target.value);
-                  }}
-                ></input>
-                <input
-                  className="q2"
-                  placeholder="Flight Size"
+                  placeholder="  flight size (small or large)"
                   onChange={(e) => {
                     setFSize(e.target.value);
                   }}

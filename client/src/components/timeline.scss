@@ -5,7 +5,7 @@
     width: 100vw;
     flex-direction: column;
     .topbar {
-        height: 6vh;
+        height: 5vh;
         width: 100vw;
         background-color: black;
         display: flex;
@@ -13,8 +13,8 @@
             width: 4vw;
             height: 6vh;
             .lg {
-                width: 4vw;
-                height: 6vh;
+                width: 3vw;
+                height: 5vh;
             }
         }
         .titleBar {
@@ -29,23 +29,44 @@
             font-family: 'Roboto', sans-serif;
             color: #CACADB;
             justify-content: center;
+            font-size: medium;
         }
         .iconbar {
-            margin-left: 30vw;
+            margin-left: 23vw;
             height: 6vh;
-            width: 30vw;
+            width: 20vw;
             display: flex;
             flex-direction: row;
             .iconSpace {
-                height: 6vh;
-                width: 4vw;
-                margin-right: 0.5vw;
+                height: 5vh;
+                width: 2vw;
+                margin-right: 1vw;
                 .icons {
-                    margin-top: 2vh;
-                    margin-left: 1vw;
-                    height: 2.5vh;
-                    width: 1.5vw;
+                    margin-top: 1.5vh;
+                    margin-left: 0.5vw;
+                    height: 2vh;
+                    width: 1vw;
                 }
+                &:hover {
+                    transform: scale(1.15);
+                }
+            }
+        }
+        .searchBar {
+            height: 5vh;
+            width: 17vw;
+            margin-top: 0.5vh;
+            .searIn {
+                background-color: black;
+                color: white;
+                border-radius: 15px;
+                width: 10vw;
+            }
+            .icons {
+                margin-top: 1vh;
+                margin-left: 1vw;
+                height: 2vh;
+                width: 1vw;
                 &:hover {
                     transform: scale(1.15);
                 }
@@ -58,15 +79,15 @@
             color: white;
             display: flex;
             flex-direction: row;
-            margin-top: 0.5vh;
+            margin-top: 1vh;
+            margin-left: 1vw;
             // .rs {
             //     margin-top: 1vh;
             // }
             .dateSpace {
-                height: 6vh;
-                font-size: large;
-                width: 22vw;
-                margin-top: 0.5vh;
+                height: 5vh;
+                font-size: medium;
+                width: 19vw;
                 color: white;
                 font-family: 'Dancing Script', cursive;
                 font-family: 'Poor Story', cursive;
@@ -104,6 +125,7 @@
             display: flex;
             .closeBt {
                 width: 10vh;
+                margin-right: 2vw;
             }
             .createBt {
                 width: 10vh;
@@ -142,7 +164,8 @@
                     height: 20vh;
                     margin-top: 2vh;
                     .q1 {
-                        margin-top: 1vh;
+                        margin-top: 3vh;
+                        height: 2vh;
                     }
                 }
                 .p2 {
@@ -151,13 +174,30 @@
                     height: 20vh;
                     flex-direction: column;
                     margin-top: 2vh;
-                    .q1 {
-                        margin-top: 1vh;
-                    }
                     .q2 {
-                        margin-top: 1vh;
+                        margin-top: 2vh;
                         background-color: black;
                         color: white;
+                        border-radius: 15px;
+                    }
+                    .p22 {
+                        width: 20vw;
+                        display: flex;
+                        flex-direction: row;
+                        .q21 {
+                            margin-top: 1.5vh;
+                            border-radius: 15px;
+                            height: 3vh;
+                        }
+                        .q22 {
+                            width: 5vw;
+                            height: 3vh;
+                            margin-top: 1.5vh;
+                            margin-left: 1vh;
+                            background-color: black;
+                            color: white;
+                            border-radius: 15px;
+                        }
                     }
                 }
             }
@@ -200,10 +240,10 @@
                             width: 9vw;
                             margin-left: 1vw;
                             display: flex;
-                            margin-top: 1vh;
+                            margin-top: 2vh;
                             flex-direction: column;
                             .l {
-                                height: 4vh;
+                                height: 5vh;
                                 width: 9vw;
                                 margin-bottom: 2vh;
                             }
@@ -220,6 +260,7 @@
                                 margin-bottom: 2vh;
                                 background-color: black;
                                 color: white;
+                                border-radius: 15px;
                             }
                         }
                     }
