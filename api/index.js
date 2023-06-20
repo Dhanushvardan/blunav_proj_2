@@ -56,7 +56,7 @@ const produce = async() => {
         } catch (err) {
             console.error("could not write message " + err)
         }
-    }, 2000)
+    }, 5000)
 }
 
 produce();

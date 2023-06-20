@@ -232,7 +232,9 @@ export default function Timeline() {
 
   const pushData = async () => {
     try {
-      await axios.post("http://localhost:5000/EventData", { eventData });
+      await axios.post("https://mobi-demo.onrender.com/EventData", {
+        eventData,
+      });
     } catch (err) {
       console.log(err);
     }
