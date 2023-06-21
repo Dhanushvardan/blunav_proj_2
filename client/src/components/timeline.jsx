@@ -232,7 +232,7 @@ export default function Timeline() {
 
   const pushData = async () => {
     try {
-      await axios.post("http://localhost:5000/EventData", {
+      await axios.post("http://35.222.245.176:5000/EventData", {
         eventData,
       });
     } catch (err) {
