@@ -5,7 +5,6 @@ import App from "./App";
 import TopBar from "./components/topbar";
 import TimeLine from "./components/timeline.jsx";
 import BigCalender from "./components/reactBig.jsx";
-import SyncFunc from "./components/syncfunc.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
